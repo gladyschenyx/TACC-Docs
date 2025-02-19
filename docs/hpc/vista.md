@@ -10,7 +10,7 @@
 ## Introduction { #intro }
 
 
-TACC's new AI-centric system, Vista, is in full production for the open science community. Vista serves as a bridge from Frontera to Horizon, the primary system of the U.S. [NSF Leadership-Class Computing Facility](https://lccf.tacc.utexas.edu/) (LCCF), and marks a departure from the x86-based architecture to one with CPUs based on Advanced RISC Machines architecture.  Vista expands the Frontera project's support of Machine Learning and GPU-enabled applications with a system based on NVIDIA Grace Hopper architecture and provides a path to more power efficient computing with NVIDIA's Grace Grace ARM CPUs. 
+TACC's new AI-centric system, Vista, is in full production for the open science community. Vista serves as a bridge from Vista to Horizon, the primary system of the U.S. [NSF Leadership-Class Computing Facility](https://lccf.tacc.utexas.edu/) (LCCF), and marks a departure from the x86-based architecture to one with CPUs based on Advanced RISC Machines architecture.  Vista expands the Vista project's support of Machine Learning and GPU-enabled applications with a system based on NVIDIA Grace Hopper architecture and provides a path to more power efficient computing with NVIDIA's Grace Grace ARM CPUs. 
 
 The Grace Hopper Superchip introduces a novel architecture that combines the GPU and CPU in one module.  This technology removes the bottleneck of the PCIe bus by connecting the CPU and GPU directly with NVLINK and exposing the CPU and GPU memory space as separate NUMA nodes.  This allows the programmer to easily access CPU or GPU memory from either device.  This greatly reduces the programming complexity of GPU programs while providing increased bandwidth and reduced latency between CPU and GPU.  
 
@@ -22,6 +22,17 @@ Vista is funded by the National Science Foundation (NSF) via a supplement to the
 ### Allocations { #intro-allocations }
 *Coming soon*.
 -->
+
+## Quickstart { #quickstart }
+
+Experienced HPC/TACC users will be very familiar with many of the topics presented in this guide. Here we'll highlight some sections for a quick start on Vista.
+
+* Log into your [TACC Dashboard][TACCDASHBOARD] to confirm that [you've been added to a Vista allocation][TACCALLOCATIONS]. Then, connect via SSH to `vista.tacc.utexas.edu`.
+* Review the TACC info box displayed at login for your allocation availability and SU balances.
+* Read the [Good Conduct Policy][TACCGOODCONDUCT]. Vista is a **shared** resource and this section covers practices and etiquette to keep your account in good standing and keep Vista's systems running smoothly for all users.
+* Consult the [Vista File Systems](#system-filesystems) and [Vista Production Queues](#queues) tables. These should be near identical to the structure used on other TACC systems but there are a few minor changes you will want to take note of. 
+* Copy and modify any of the [Sample Job Scripts](#scripts) for your own use. These scripts will also be helpful to show you how to modify any Jobs Scripts you are bringing over from other TACC systems so that they run efficiently on Vista.
+* Start small. Run any jobs from other systems on a smaller scale in order to test the performance of your code on Vista. You may find your code needs to be altered or recompiled in order to perform well and at scale on the new system. 
 
 
 
