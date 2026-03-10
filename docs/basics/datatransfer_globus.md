@@ -109,3 +109,4 @@ See our [Globus CLI Guide](datatransfer_globus_cli.md) for a short summary of us
 - Email notifications can be enabled
 - Failed file transfers are clearly reported
 
+{% include 'aliases.md' %}
