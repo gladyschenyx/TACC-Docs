@@ -25,7 +25,7 @@ Junseong Heo
 * 10/08/2025 **VSCode users: Accessing Ranch and managing transfers via VSCode is prohibited.**  Ranch is an archival file system, not a computational resource.  Please use a terminal application to manage your Ranch data.
 
 
-09/24/2025  Over the next year, [TACC's archival data system, Ranch,][TACCRANCHUG], will undergo a complete system replacement, requiring all current Ranch users to curate, then migrate, all their Ranch data from the old to the new system.  
+09/24/2025  Over the next year, [TACC's archival data system, Ranch][TACCRANCHUG], will undergo a complete system replacement, requiring all current Ranch users to curate, then migrate, all their Ranch data from the old to the new system.  
 
 Since this is a total system replacement, and not an upgrade to existing hardware, all data on the current (Old) Ranch must be MANUALLY COPIED OVER to the New Ranch system,  by the respective data's owner, in order to save it permanently.   Data on Old Ranch will NOT automatically transfer to New Ranch.  You are responsible for migrating your own data that is stored on Old Ranch, either in your personal directory, or in a designated Project space, prior to the end of November, 2026.  
 
